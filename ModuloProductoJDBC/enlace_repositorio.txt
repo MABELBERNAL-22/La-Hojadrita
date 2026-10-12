@@ -1,0 +1,5 @@
+Enlace del repositorio (GitHub):
+https://github.com/MABELBERNAL-22/La-Hojadrita
+
+Para esta entrega, sube la carpeta src/ de este módulo dentro de ese repositorio
+y haz commit del avance antes de comprimir la carpeta final (BERNALAMAYA_AA2_EV01).
