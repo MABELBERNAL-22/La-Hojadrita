@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Hojaldrita - Productos</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/estilos.css">
+</head>
+<body>
+<header class="barra">
+    <span class="logo">La Hojaldrita</span>
+    <nav>
+        <a href="${pageContext.request.contextPath}/index.jsp">Inicio</a>
+        <a href="${pageContext.request.contextPath}/productos">Productos</a>
+        <a href="${pageContext.request.contextPath}/productos?accion=nuevo">Agregar producto</a>
+    </nav>
+</header>
+<main class="contenido">

@@ -1,0 +1,33 @@
+:root { --cafe:#7D3D29; --crema:#FFFDD0; --naranja:#FF8C00; --rojo:#D32F2F; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: Arial, Helvetica, sans-serif; background: var(--crema); color:#3b2a22; }
+.barra { background: var(--cafe); color:#fff; display:flex; justify-content:space-between; align-items:center; padding:14px 28px; flex-wrap:wrap; gap:8px; }
+.logo { font-size:1.4rem; font-weight:bold; }
+.barra nav a { color:#fff; text-decoration:none; margin-left:18px; }
+.barra nav a:hover { text-decoration:underline; }
+.contenido { max-width:980px; margin:28px auto; padding:0 16px; min-height:60vh; }
+h1 { color: var(--cafe); }
+.tarjeta { background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+table { width:100%; border-collapse:collapse; background:#fff; border-radius:10px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+th { background: var(--cafe); color:#fff; text-align:left; padding:10px; }
+td { padding:10px; border-bottom:1px solid #eee; vertical-align:middle; }
+.acciones { display:flex; gap:6px; align-items:center; }
+.acciones form { margin:0; }
+.boton { background: var(--naranja); color:#fff; border:none; padding:9px 16px; border-radius:8px; cursor:pointer; text-decoration:none; font-size:.95rem; display:inline-block; }
+.boton:hover { filter:brightness(.92); }
+.boton.secundario { background:#fff; color: var(--cafe); border:1px solid var(--cafe); }
+.boton.peligro { background: var(--rojo); }
+.boton.chico { padding:5px 11px; font-size:.85rem; }
+.busqueda { display:flex; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
+.busqueda input { flex:1; min-width:200px; padding:9px; border:1px solid #cdbfa8; border-radius:8px; }
+.total { color:#6b5a50; }
+.vacio { background:#fff; padding:18px; border-radius:10px; }
+.aviso { padding:12px 16px; border-radius:8px; margin:12px 0; }
+.aviso.ok { background:#e6f4ea; color:#256029; border:1px solid #b7dfbf; }
+.aviso.error { background:#fdeaea; color: var(--rojo); border:1px solid #f3bcbc; }
+.aviso ul { margin:6px 0 0 18px; padding:0; }
+.formulario { background:#fff; border-radius:12px; padding:24px; max-width:560px; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+.formulario label { display:block; margin:14px 0 5px; font-weight:bold; color: var(--cafe); }
+.formulario input, .formulario select, .formulario textarea { width:100%; padding:9px; border:1px solid #cdbfa8; border-radius:8px; font-family:inherit; font-size:1rem; }
+.botones { margin-top:20px; display:flex; gap:10px; }
+.pie { text-align:center; padding:18px; background: var(--cafe); color:#fff; font-size:.85rem; }
